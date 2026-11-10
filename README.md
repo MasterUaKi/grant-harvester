@@ -5,8 +5,7 @@
 [![Python: 3.11+](https://img.shields.io/badge/Python-3.11%2B-brightgreen.svg)](https://www.python.org/)
 [![Playwright: Stealth](https://img.shields.io/badge/Browser-Playwright%20Edge%20Stealth-blueviolet.svg)](https://playwright.dev/)
 [![LLM: DeepSeek R1 / Chat](https://img.shields.io/badge/AI%20Reflection-DeepSeek%20Chat%20%26%20R1-orange.svg)](https://deepseek.com/)
-[![Standard: KDSF 2.1 Ready](https://img.shields.io/badge/Standard-KDSF%202.1%20Ready-informational.svg)](https://kerndatensatz-forschung.de/)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24106395.svg)](https://doi.org/10.5281/zenodo.24106395)
 ---
 
 ## Overview / Übersicht
