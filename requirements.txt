@@ -1,7 +1,8 @@
 # File: requirements.txt
-# Version: 1.0.0 | Release Date: 2026-11-10
-# EN: Pinned core runtime dependencies for virtual environments and automated CI/CD.
-# DE: Fixierte Kern-Laufzeitabhängigkeiten für virtuelle Umgebungen und CI/CD.
+# Version: 1.0.1 | Release Date: 2026-11-10
+
+# Cognitive architecture engine / Kognitive Engine
+git+https://github.com/MasterUaKi/pycognition.git
 
 # Data validation & strongly-typed settings / Datenvalidierung & typisierte Einstellungen
 pydantic>=2.6.0
