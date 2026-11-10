@@ -1,14 +1,17 @@
+# File: CITATION.cff
+# Version: 1.0.1 | Release Date: 2026-11-10
 cff-version: 1.2.0
 message: "If you use this software in your research or institutional CRIS infrastructure, please cite it as below. / Wenn Sie diese Software in Ihrer Forschung oder CRIS-Infrastruktur nutzen, zitieren Sie sie bitte wie folgt."
 title: "Grant Harvester: Autonomous Academic Funding Monitoring Framework with Cognitive Multi-Tier Reflection"
 version: 1.0.0
+doi: 10.5281/zenodo.24106395
 date-released: 2026-11-10
 authors:
   - family-names: "Riabtsev"
     given-names: "Oleh"
     affiliation: "Universität Vechta"
 repository-code: "https://github.com/MasterUaKi/grant-harvester"
-url: "https://github.com/MasterUaKi/grant-harvester"
+url: "https://doi.org/10.5281/zenodo.24106395"
 license: "MIT"
 keywords:
   - "research funding"
