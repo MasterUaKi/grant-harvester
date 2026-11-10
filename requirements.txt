@@ -1,0 +1,21 @@
+# File: requirements.txt
+# Version: 1.0.0 | Release Date: 2026-11-10
+# EN: Pinned core runtime dependencies for virtual environments and automated CI/CD.
+# DE: Fixierte Kern-Laufzeitabhängigkeiten für virtuelle Umgebungen und CI/CD.
+
+# Data validation & strongly-typed settings / Datenvalidierung & typisierte Einstellungen
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.0
+
+# Asynchronous HTTP network client / Asynchroner HTTP-Netzwerk-Client
+httpx>=0.27.0
+
+# HTML parsing & DOM cleanup / HTML-Parsing & DOM-Bereinigung
+beautifulsoup4>=4.12.0
+
+# Headless browser automation (Anti-bot & SPA hydration) / Headless-Browser-Automatisierung
+playwright>=1.42.0
+
+# Structured tabular data export (Excel .xlsx) / Strukturierter Tabellendaten-Export (.xlsx)
+openpyxl>=3.1.2

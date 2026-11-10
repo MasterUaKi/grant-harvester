@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software in your research or institutional CRIS infrastructure, please cite it as below. / Wenn Sie diese Software in Ihrer Forschung oder CRIS-Infrastruktur nutzen, zitieren Sie sie bitte wie folgt."
+title: "Grant Harvester: Autonomous Academic Funding Monitoring Framework with Cognitive Multi-Tier Reflection"
+version: 1.0.0
+date-released: 2026-11-10
+authors:
+  - family-names: "Riabtsev"
+    given-names: "Oleh"
+    affiliation: "Universität Vechta"
+repository-code: "https://github.com/MasterUaKi/grant-harvester"
+url: "https://github.com/MasterUaKi/grant-harvester"
+license: "MIT"
+keywords:
+  - "research funding"
+  - "forschungsfoerderung"
+  - "grant monitoring"
+  - "academic intelligence"
+  - "playwright"
+  - "deepseek"
+  - "cognitive reflection"
+  - "kdsf"
+  - "cris"
+abstract: |
+  Grant Harvester is an autonomous, self-healing framework designed to aggregate, 
+  validate, and monitor academic funding opportunities across German and European funding 
+  agencies (DFG, BMBF, EU Horizon, ERC, and philanthropic foundations). It couples a 
+  high-speed deterministic execution runner (System 1) with an iterative LLM reasoning and 
+  reflection loop (System 2: DeepSeek Chat & DeepSeek Reasoner R1) to bypass SPA rendering 
+  barriers, adapt to DOM drift, and eliminate corrupt entity extraction.

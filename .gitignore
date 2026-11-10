@@ -1,0 +1,71 @@
+# File: .gitignore
+# Version: 1.0.0 | Release Date: 2026-11-10
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets & environment configurations (CRITICAL)
+.env
+*.env.local
+*.env.*.local
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+.DS_Store
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Playwright & browser engine caches
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Local databases, runtime registries & generated artifacts
+output/*.db
+output/*.sqlite
+output/*.sqlite3
+output/*.html
+output/*.json
+output/*.xlsx
+sources_registry.json
+unprocessed_sources.json
+skills_registry/skills_yields.json
+*.log

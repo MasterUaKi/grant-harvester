@@ -1,0 +1,73 @@
+# File: pyproject.toml
+# Version: 1.0.0 | Release Date: 2026-11-10
+# EN: Modern PEP 518/621 project configuration and dependency specification.
+# DE: Moderne PEP 518/621 Projektkonfiguration und Abhängigkeitsspezifikation.
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grant-harvester"
+version = "1.0.0"
+description = "Autonomous academic grant harvester and monitoring framework with dual-tier cognitive reflection (EN) / Autonomer akademischer Förderungs-Harvester und Überwachungs-Framework mit zweistufiger kognitiver Reflexion (DE)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Oleh Riabtsev", email = "masteruaki@gmail.com" }
+]
+keywords = [
+    "grant-harvester",
+    "research-funding",
+    "academic-grants",
+    "stipendien",
+    "forschungsfoerderung",
+    "playwright",
+    "deepseek",
+    "llm-reflection",
+    "autonomous-agent",
+    "kdsf"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "pydantic>=2.6.0",
+    "pydantic-settings>=2.2.0",
+    "httpx>=0.27.0",
+    "beautifulsoup4>=4.12.0",
+    "playwright>=1.42.0",
+    "python-dotenv>=1.0.0",
+    "openpyxl>=3.1.2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.3.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/MasterUaKi/grant-harvester"
+Repository = "https://github.com/MasterUaKi/grant-harvester.git"
+Issues = "https://github.com/MasterUaKi/grant-harvester/issues"
+Documentation = "https://github.com/MasterUaKi/grant-harvester#readme"
+
+[project.scripts]
+grant-harvester = "main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+exclude = ["tests*", "output*"]
